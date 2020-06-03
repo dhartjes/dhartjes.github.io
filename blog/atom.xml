@@ -16,10 +16,10 @@ layout: feed
 
     {% for post in site.posts %}
         <entry>
-            <title>{{ ost.titl }}</title>
-            <link href="https://dhartjes.github.io{{ ost.ur }}"/>
+            <title>{{ post.title }}</title>
+            <link href="https://dhartjes.github.io{{ post.url }}"/>
             <updated>{{ post.date | date_to_xmlschema }}</updated>
-            <id>https://dhartjes.github.io{{ ost.i }}</id>
+            <id>https://dhartjes.github.io{{ post.id }}</id>
             <content type="html">{{ post.content | xml_escape }}</content>
         </entry>
         {% endfor %}
