@@ -7,7 +7,7 @@ layout: feed
     <title>Dominic Hartjes' Blog</title>
     <link href="https://dhartjes.github.io/blog/atom.xml" rel="self"/>
     <link href="https://dhartjes.github.io/blog"/>
-    <updated>{{site.time | date_to_xmlschema }}</updated>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>https://dhartjes.github.io/blog</id>
     <author>
         <name>Dominic Hartjes</name>
@@ -16,11 +16,11 @@ layout: feed
 
     {% for post in site.posts %}
         <entry>
-            <title>{{post.title}}</title>
-            <link href="https://dhartjes.github.io{{post.url}}"/>
-            <updated>{{post.date | date_to_xmlschema}}</updated>
-            <id>https://dhartjes.github.io{{post.id}}</id>
-            <content type="html">{{post.content | xml_escape}}</content>
+            <title>{{ ost.titl }}</title>
+            <link href="https://dhartjes.github.io{{ ost.ur }}"/>
+            <updated>{{ post.date | date_to_xmlschema }}</updated>
+            <id>https://dhartjes.github.io{{ ost.i }}</id>
+            <content type="html">{{ post.content | xml_escape }}</content>
         </entry>
         {% endfor %}
 </feed>
