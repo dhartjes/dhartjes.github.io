@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "Dominic Hartjes creates site to help him remember things he once knew"
 data: 2020-06-03
 ---
