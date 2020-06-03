@@ -1,2 +1,5 @@
+name: Dominic Hartjes - Developer, Musician, Educator
 theme: jekyll-theme-minimal
 logo: '/assets/images/Lake at dusk.jpg'
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
