@@ -1,5 +1,5 @@
 name: Dominic Hartjes - Developer, Musician, Educator
 theme: jekyll-theme-minimal
-logo: '/assets/images/dhartjes web logo.png'
+logo: '/assets/images/dhartjes web logo - 2.png'
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
